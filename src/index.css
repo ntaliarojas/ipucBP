@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.card1 {
+  /* Tu estilo base aquí */
+
+  /* Estilo al realizar hover sobre el card */
+  &:hover {
+    /* Tu estilo para hover aquí */
+    background-color: #1f1f8e;
+  }
+}
+.card2 {
+  /* Tu estilo base aquí */
+
+  /* Estilo al realizar hover sobre el card */
+  &:hover {
+    /* Tu estilo para hover aquí */
+    background-color: #c74f30;
+  }
+}
+.card3 {
+  /* Tu estilo base aquí */
+
+  /* Estilo al realizar hover sobre el card */
+  &:hover {
+    /* Tu estilo para hover aquí */
+    background-color: #1b5d3a;
+  }
+}
+ .li {
+  &:hover {
+    /* Tu estilo para hover aquí */
+    color: #1414b5;
+  }
+}
+.list{
+  margin-left: -8rem;
+  color: white;
+}
+
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 35px;
+}
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.img {
+  border-radius: 25px;
+}
+
+.title-kids {
+  color: #bf30c7;
+  font-family: "Butterfly Kids", cursive;
+}
+.title-kids2 {
+  color: #1b5d3a;
+  font-size: 5rem;
+  font-family: "Shadows Into Light", cursive;
+}
+.kids-p {
+  font-size: 2rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  font-family: "Butterfly Kids", cursive;
+}
