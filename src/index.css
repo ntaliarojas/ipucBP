@@ -6,42 +6,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-.card1 {
-  /* Tu estilo base aquí */
-
-  /* Estilo al realizar hover sobre el card */
-  &:hover {
-    /* Tu estilo para hover aquí */
-    background-color: #1f1f8e;
-  }
-}
-.card2 {
-  /* Tu estilo base aquí */
-
-  /* Estilo al realizar hover sobre el card */
-  &:hover {
-    /* Tu estilo para hover aquí */
-    background-color: #c74f30;
-  }
-}
-.card3 {
-  /* Tu estilo base aquí */
-
-  /* Estilo al realizar hover sobre el card */
-  &:hover {
-    /* Tu estilo para hover aquí */
-    background-color: #1b5d3a;
-  }
-}
- .li {
-  &:hover {
-    /* Tu estilo para hover aquí */
-    color: #1414b5;
-  }
-}
 .list{
   margin-left: -10rem;
-  color: white;
 }
 
 .gallery {

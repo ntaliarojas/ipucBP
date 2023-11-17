@@ -33,7 +33,7 @@ export const NavBar = () => {
               </li>
              
             </ul>
-            <li className="list">
+            <li className="list text-black">
               <details>
                 <summary className="w-10 h-4 cursor-pointer sm:hidden"></summary>
                 <ul className="p-2 bg-base-100">
