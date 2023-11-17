@@ -43,7 +43,7 @@ export const Gallery = () => {
     <>
       <div>
         <div>
-          <div id="eventos" className="sm:flex text-center pt-6">
+          <div id="familia" className="sm:flex text-center pt-6">
             <div className="flex-1 py-12">
               <h2 className="text-[40px] font-bold sm:text-[48px] leading-none ">
                 Nuestros Pastores
@@ -132,10 +132,7 @@ export const Gallery = () => {
           <br />
         </div>
 
-        <div
-          
-          className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32"
-        >
+        <div id="contacto" className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
               <div className="max-w-xl lg:max-w-lg">

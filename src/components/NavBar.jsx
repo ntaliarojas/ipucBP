@@ -6,7 +6,7 @@ import logo from "../assets/images/logo.png";
 export const NavBar = () => {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-gray-900">
         <div className="flex-1">
           <img src={logo} alt="logo" width="70px" />{" "}
         </div>
@@ -19,36 +19,36 @@ export const NavBar = () => {
                 sm:items-center
                 text-white"
             >
-              <Link className="li" to="/Nosotros">
-                Inicio
-              </Link>
-              <Link className="li" to="/Gallery">
-                Familia BP
-              </Link>
-              <Link className="li" to="/AboutBP">
-                Contacto
-              </Link>
+              <li>
+                <a href="#inicio">Inicio</a>
+              </li>
+              <li>
+                <a href="#familia">Familia BP </a>
+              </li>
+              <li>
+                <a href="#eventos">Eventos</a>
+              </li>
+              <li>
+                <a href="#contacto">Contacto</a>
+              </li>
+             
             </ul>
             <li className="list">
               <details>
                 <summary className="w-10 h-4 cursor-pointer sm:hidden"></summary>
                 <ul className="p-2 bg-base-100">
-                  <li>
-                    <Link className="li" to="/Nosotros">
-                      Inicio
-                    </Link>{" "}
-                  </li>
-                  <li>
-                    <Link className="li" to="/Gallery">
-                      Familia BP
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link className="li" to="/AboutBP">
-                      Contacto
-                    </Link>
-                  </li>
+                <li>
+                <a href="#inicio">Inicio</a>
+              </li>
+              <li>
+                <a href="#familia">Familia BP </a>
+              </li>
+              <li>
+                <a href="#eventos">Eventos</a>
+              </li>
+              <li>
+                <a href="#contacto">Contacto</a>
+              </li>
                 </ul>
               </details>
             </li>
